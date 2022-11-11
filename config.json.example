@@ -1,0 +1,56 @@
+{
+    "mode": "development",
+    "address": ":7070",
+    "database": {
+        "mysql": {
+            "host": "",
+            "port": "",
+            "user": "",
+            "pass": "",
+            "db": ""
+        },
+        "mongo": {
+            "host": "",
+            "port": "",
+            "user": " ",
+            "pass": " ",
+            "db": "",
+            "dbauth": ""
+        }
+    },
+    "smtp": {
+        "host": "SMTP_HOST",
+        "port": "SMTP_PORT",
+        "auth": "SMTP_AUTH",
+        "name": "SMTP_SENDER_NAME",
+        "address": "SMTP_ADDRESS",
+        "username": "SMTP_USERNAME",
+        "password": "SMTP_PASSWORD",
+        "secure": "SMTP_SECURE"
+    },
+    "context":{
+        "timeout": 10
+    },
+    "forget_password_token_expired": 180000,
+    "length_response_list": 10,
+    "jwt":{
+        "key": "",
+        "expired": 2592000
+    },
+    "default_lang": "id",
+    "default_unhandled_error": "Unhandled error. Please try again.",
+    "default_avatar_male": "",
+    "default_avatar_female": "",
+    "base_url": "http://127.0.0.1:7070",
+    "login": {
+        "max_try": 3,
+        "duration_up_increment": 1440
+    },
+    "timezone": "Asia/Jakarta",
+    "account_bypass_device": ["apple@mailinator.com"],
+    "cloudinary": {
+        "user":"",
+        "key":"",
+        "secret":""
+    },
+}

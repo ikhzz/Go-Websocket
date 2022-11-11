@@ -1,0 +1,30 @@
+### Go ###
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+config.json
+*.config.json
+/vendor/*
+!/vendor/vendor.json
+/Godeps/
+/config/config.json
+
+/files
+/log
+.DS_Store
+firebase_credential.json
+/templates/shift_list/result.html
+
+.scannerwork
+
+/tmp
